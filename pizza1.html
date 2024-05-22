@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head <link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lilita+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
@@ -16,9 +17,10 @@
         }
         
         header {
-            background-color: #b45f06;
+            background: url(https://i.pinimg.com/564x/9f/dd/10/9fdd105d7faaf055e0f85889c31133c2.jpg)no-repeat center;
+            background-size: 100%;
             color: #fff;
-            padding: 30px 0;
+            padding: 40px 0px;
             text-align: center;
         }
         
@@ -39,7 +41,6 @@
             color: #fff;
             text-align: center;
             padding: 10px 0;
-            position: fixed;
             bottom: 0;
             width: 100%;
         }
@@ -49,11 +50,20 @@
             font-weight: 400;
             font-style: normal;
             font-size: 60px;
+            color: #391d00;
         }
         
-        img {
-            width: 100px;
-            float: left;
+        .esquerda {
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            margin-bottom: 50px;
+        }
+        #barradepesquisa{
+            margin-left: 700px;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -61,7 +71,7 @@
 <body>
     <header>
         <h1  class="lilita-one-regular">Pizzaria Sabor da Serra</h1>
-        <img src="serra.png">
+        <img src="serra.png" class="esquerda">
     </header>
     <nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -84,9 +94,11 @@
                         <a class="nav-link" href="#">Faça seu pedido</a>
                     </li>
                 </ul>
+                <input type="search" name="pesquisa" id="barradepesquisa">
             </div>
         </nav>
     </nav>
+    
     <h1>Quem somos?</h1>
     <p>Bem-vindo ao Sabor da Serra, a pizzaria onde o sabor autêntico e a tradição se encontram! Localizada no coração da nossa cidade, nossa pizzaria é o destino ideal para os amantes de uma boa pizza, preparada com ingredientes frescos e de alta qualidade.
         No Sabor da Serra, valorizamos cada detalhe, desde a seleção das melhores farinhas até o cuidado na escolha dos ingredientes que compõem nossas receitas exclusivas. Nossa massa é artesanalmente preparada, garantindo leveza e crocância a cada mordida.
@@ -117,6 +129,7 @@
         <footer>
             <h2> <b> Contato </b> </h2>
             <p> Endereço: Rua João Alves, 405, Serra Da Raiz</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.664018179814!2d-35.449479825184156!3d-6.688473565389187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7adbc44e1c59063%3A0xc12ae38d84914914!2sSabor%20Da%20Serra!5e0!3m2!1spt-BR!2sbr!4v1716376062762!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <p>Telefone: (83) 99181-8396</p>
             <p>Email: marcelobob@gmail.com </p>
 
