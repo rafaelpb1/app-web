@@ -56,7 +56,10 @@
             float: left;
         }
         #fundo{
-            background-image: url('https://i.pinimg.com/564x/f2/b9/18/f2b91825df6b8f85307ffc1f14356511.jpg');
+
+            background-image: url('https://i.pinimg.com/564x/06/c9/a2/06c9a21787ddb83f3ede7e02c5657eba.jpg');
+
+          
             background-repeat: no-repeat;
             background-size: cover;
             border: 5px solid #000; /* Adiciona uma borda preta de 5px */
@@ -64,15 +67,27 @@
             height: 100vh; /* Ajusta a altura do body para preencher a tela */
             box-sizing: border-box; /* Inclui a borda e a margem no cálculo do tamanho */
             border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
         }
+        
+        
         .imagens{
         text-align: center;
-        margin-left: 40%;
-        margin-bottom: 15%;
-        height: 250px;
-        margin-right: 40%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
         
         }
+        .imagens img {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+
        #img1{
         width: 100%;
         border-radius: 10px;
@@ -81,21 +96,27 @@
        #img2{
         width: 100%;
         border-radius: 10px;
+        margin-top: 25%;
         margin-top: -25%;
+
         
        }
        a{ 
        text-decoration: none;
-       color: #555555;
+       color: #edebeb;
        }
        a:hover{
-        color: black;
+        color: rgb(158, 98, 8);
         text-decoration: none;
+       }
+
+      
        }
        #barradepesquisa{
             margin-left: 700px;
             border-radius: 10px;
         }
+
        
     </style>
 </head>
@@ -120,7 +141,7 @@
                             <a class="nav-link" href="pizza1.html">Home </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Cardápio<span class="sr-only">(Página Atual)</span></a>
+                            <a class="nav-link" href="cardapio.html">Cardápio<span class="sr-only">(Página Atual)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Unidades</a>
@@ -130,25 +151,31 @@
                         </li>
                     </ul>
                     <input type="search" name="pesquisa" id="barradepesquisa">
+
                 </div>
             </nav>
         </nav>
     
     <div id="fundo">
-        <div class="imagens">
-            <img src="https://i.pinimg.com/564x/45/7f/b1/457fb15a3ec5919848a17825d6299bfc.jpg" id="img1" >
-            <a href="cardapio.html"><h3>Pizzas Salgadas  </h3></a>
-        </div>
-        <div class="imagens">
-            <img src="https://i.pinimg.com/736x/c0/7b/80/c07b807225197db7eed29e49ffb980cc.jpg" id="img2" >
-            <a href="cardapio.html"><h3>Pizzas Doces  </h3></a>
+
+        <div id="fundo2">
+            <div class="imagens">
+                <img src="https://i.pinimg.com/564x/45/7f/b1/457fb15a3ec5919848a17825d6299bfc.jpg" id="img1" >
+                <a href="cardapio.html"><h3>Pizzas Salgadas  </h3></a>
+            
+                <img src="https://i.pinimg.com/736x/c0/7b/80/c07b807225197db7eed29e49ffb980cc.jpg" id="img2" >
+                <a href="cardapio.html"><h3>Pizzas Doces  </h3></a>
+            </div>
+
         </div>
     </div>
     <section id="contato">
         <footer>
             <h2> <b> Contato </b> </h2>
             <p> Endereço: Rua João Alves, 405, Serra Da Raiz</p>
+
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.664018179814!2d-35.449479825184156!3d-6.688473565389187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7adbc44e1c59063%3A0xc12ae38d84914914!2sSabor%20Da%20Serra!5e0!3m2!1spt-BR!2sbr!4v1716376062762!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             <p>Telefone: (83) 99181-8396</p>
             <p>Email: marcelobob@gmail.com </p>
 
