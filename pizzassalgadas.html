@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Lilita+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Sabor Da Serra</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #b45f06;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #555555;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+        }
+        
+        footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .lilita-one-regular {
+            font-family: "Lilita One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 60px;
+        }
+        
+        img {
+            width: 100px;
+            float: left;
+        }
+        #fundo{
+            background-image: url('https://i.pinimg.com/564x/06/c9/a2/06c9a21787ddb83f3ede7e02c5657eba.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 5px solid #000; /* Adiciona uma borda preta de 5px */
+            margin: 20px; /* Adiciona uma margem para visualizar a borda */
+            height: 100vh; /* Ajusta a altura do body para preencher a tela */
+            box-sizing: border-box; /* Inclui a borda e a margem no cálculo do tamanho */
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        
+        .imagens{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-top: 1%;
+        max-height: 30vh;
+        min-height: 30vh;
+        }
+     
+        
+        a{ 
+        text-decoration: none;
+        color: #edebeb;
+        }
+        a:hover{
+        color: rgb(158, 98, 8);
+        text-decoration: none;
+        }
+        .caixas{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 30%;
+            width: 40%;
+            text-align: center;
+            justify-items:center ;
+            min-height: 60vh;
+
+            border-radius: 10px;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            
+        }
+        .titulos{
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background-color: #b45f06;
+            margin-bottom: 0.5%;
+        }
+       .esquerda {
+            width: 6%;
+            display: flex;
+            margin-left: 10px;
+            margin-top: 2%;
+        }
+        #pedido{
+            background-color: #000;
+            border-radius: 10px;
+            width: 10%;
+            margin-left: 45%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 5%;
+        }
+       
+    </style>
+</head>
+       
+<body>
+    
+        <header>
+            <h1  class="lilita-one-regular">Pizzaria Sabor da Serra</h1>
+            <img src="serra.png" class="esquerda">
+        </header>
+        <nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Página Inicial</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse caixa" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pizza1.html">Home </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="cardapio.html">Cardápio<span class="sr-only">(Página Atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Unidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Faça seu pedido</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+        <div class="caixas">
+            <h2 class="titulos">Margarita</h2>
+            <img src="https://i.pinimg.com/236x/d4/bf/d5/d4bfd54c3f5f672af5be24513e12902f.jpg" class="imagens">
+            <p><strong>Ingredientes:</strong> Molho de tomate, mussarela, pimentão, carne moída temperada, cebola, pimenta jalapeño, milho, coentro.</p>
+            <p>Para os aventureiros gastronômicos, a Pizza Mexicana oferece uma explosão de sabores picantes e vibrantes, com uma mistura única de ingredientes tradicionais mexicanos.</p>
+
+        </div>
+
+        <div class="caixas">
+            <h2 class="titulos">Pepperoni</h2>
+            <img src="https://i.pinimg.com/236x/f0/e3/12/f0e312788baa7c623104561b51f9ac13.jpg" class="imagens">
+            <p><strong>Ingredientes:</strong>Molho de tomate, mussarela, pepperoni.</p>
+            <p>A queridinha dos amantes de pizza, a Pizza Pepperoni é uma explosão de sabor. A combinação picante do pepperoni com o queijo derretido é irresistível.</p>
+
+        </div>
+
+        <div class="caixas">
+            <h2 class="titulos">Quatro Queijos</h2>
+            <img src="https://pizzariadobairro.com.br/wp-content/uploads/2021/11/Quatro-Queijos.jpg" class="imagens">
+            <p><strong>Ingredientes:</strong>Molho de tomate, mussarela, queijo gorgonzola, queijo parmesão, queijo provolone.</p>
+            <p>Prepare-se para uma experiência de queijo intensa com a Pizza Quatro Queijos. Cada mordida é uma festa para os amantes de queijo, com uma mistura harmoniosa de sabores.</p>
+
+
+        </div>
+
+        <div class="caixas">
+            <h2 class="titulos">Calabresa</h2>
+            <img src="https://i.pinimg.com/236x/6b/e4/2d/6be42d81815e5a9794853aac14893bcf.jpg" class="imagens">
+            <p><strong>Ingredientes:</strong>Molho de tomate, mussarela, linguiça calabresa, cebola fatiada.</p>
+            <p>Uma pizza com influências italianas e brasileiras, a Pizza Calabresa é uma delícia defumada, graças à linguiça calabresa, combinada com a doçura da cebola.</p>
+
+        </div>
+
+        <div class="caixas">
+            <h2 class="titulos">Frango com Catupiry</h2>
+            <img src="https://i.pinimg.com/474x/65/69/94/6569945978727be849fc63b7af9cdaf5.jpg" class="imagens">
+            <p><strong>Ingredientes:</strong>Molho de tomate, frango desfiado, catupiry, milho verde.</p>
+            <p>Uma combinação clássica que faz sucesso em todo o Brasil, a Pizza de Frango com Catupiry é cremosa, reconfortante e cheia de sabor.</p>
+
+
+        </div>
+
+        <div class="caixas">
+            <h2 class="titulos">Vegetariana</h2>
+            <img src="https://i.pinimg.com/236x/98/7e/42/987e42caf6f3f7e8f38ed3aa8186bb12.jpg" class="imagens">
+            <p><strong>Ingredientes:</strong>Molho de tomate, mussarela, tomate em rodelas, pimentão, cebola, azeitonas pretas, cogumelos.</p>
+            <p>Para os amantes de vegetais, a Pizza Vegetariana é uma opção colorida e saudável. Cada pedaço é uma explosão de sabores frescos e naturais.</p>
+
+        </div>
+
+        <div class="caixas">
+            <h2 class="titulos">Portuguesa</h2>
+            <img src="https://i.pinimg.com/236x/30/61/27/306127b4af380cc89001e5131294310e.jpg" class="imagens">
+            <p><strong>Ingredientes:</strong>Molho de tomate, mussarela, presunto, cebola, ovos cozidos, azeitonas verdes, fatias de tomate.            </p>
+            <p>Inspirada na culinária portuguesa, esta pizza tem uma combinação única de ingredientes que cria um equilíbrio perfeito entre salgado e doce.</p>
+
+        </div>
+
+        </div>
+
+        <div class="caixas">
+            <h2 class="titulos">Mexicana</h2>
+            <img src="https://i.pinimg.com/236x/93/c9/19/93c919b92c0f5a4f702cf5864b28ffe6.jpg" class="imagens">
+            <p><strong>Ingredientes:</strong>Molho de tomate, mussarela, pimentão, carne moída temperada, cebola, pimenta jalapeño, milho, coentro.</p>
+            <p>Para os aventureiros gastronômicos, a Pizza Mexicana oferece uma explosão de sabores picantes e vibrantes, com uma mistura única de ingredientes tradicionais mexicanos.</p>
+
+        </div>
+        <button id="pedido"><a href="youtube.com"><strong>Realizar Pedido</strong> </button>
+
+        <section id="contato">
+            <footer>
+                <h2> <b> Contato </b> </h2>
+                <p> Endereço: Rua João Alves, 405, Serra Da Raiz</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.664018179814!2d-35.449479825184156!3d-6.688473565389187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7adbc44e1c59063%3A0xc12ae38d84914914!2sSabor%20Da%20Serra!5e0!3m2!1spt-BR!2sbr!4v1716376062762!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Telefone: (83) 99181-8396</p>
+                <p>Email: marcelobob@gmail.com </p>
+    
+        </section>
+        </footer>
+    
+    
+    
+    
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
