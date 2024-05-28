@@ -39,11 +39,12 @@ nav a {
     margin: 10px;
 }
 .caixas{
-    width: 40%;
+    width: 500px;
     text-align: center;
-    justify-items:center ;
+    display: block;
+    justify-items:center;
     min-height: 60vh;
-
+    margin-bottom: 50px;
     border-radius: 10px;
     background-color: white;
     border: 1px solid #ddd;
