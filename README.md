@@ -1,4 +1,4 @@
-parte do esborço do cardapio 
+parte do esborço do cardapio estilizado
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -60,7 +60,7 @@ parte do esborço do cardapio
             border: 5px solid #000; /* Adiciona uma borda preta de 5px */
             margin: 20px; /* Adiciona uma margem para visualizar a borda */
             height: 100vh; /* Ajusta a altura do body para preencher a tela */
-            box-sizing: border-box; /* Inclui a borda e a margem no cálculo do tamanho */
+            box-sizing: border-box; /
             border-radius: 10px;
             display: flex;
             align-items: center;
